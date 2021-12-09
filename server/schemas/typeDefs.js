@@ -34,7 +34,7 @@ const typeDefs = gql`
     saveBook(
         authors: [String],
         description: String,
-        title: String!,
+        title: String,
         bookId: ID!,
         image: String,
         link: String
